@@ -1,0 +1,141 @@
+{
+  "public": {
+    "IRBText": "Thank you for voting in the Durham participatory budgeting process two months ago. As you may remember, Stanford University presented you besides the official ballot also with a research ballot. You gave us permission to ask you one more question after the whole voting process was completed.<br/><br/>You will now be asked to participate in an activity that will not affect your vote, but is part of a Stanford University research project. You can exit at any time. The expected time for this activity is 2 minutes. In this activity, you will be asked to two budgets based on the projects available during the process.<br/><br/>This study poses no risk, and will help us improve digital democracy processes. No payment will be made to you for participation, and we cannot and do not guarantee or promise that you will receive any benefits from this study. You have the right to refuse to answer particular questions. This study is funded partially by the National Science Foundation. Please contact Professor Ashish Goel at goel_admins@lists.stanford.edu if you have any questions, suggestions, or concerns.<br/><br/><p>If you agree to the above, please click “Begin” to move on to the next page.</p>",
+    "existingbudgets": [
+      [
+        ["Technology for Durham Public Middle and High Schools", "$134,784", "This project will provide Durham Public Schools with funds to purchase and replace Epson Brightlink 685 Wi Projectors used in classrooms at the following high school andmiddle school: Northern High, Brogden Middle School, Carrington Middle School, LucasMiddle School, Neal Magnet Middle and School. DPS administration identified a need for working projectors in the classrooms as a major priority. Teachers rely on projectorsevery day, which are used for lessons, conducting research, watching educational videos and solving problems among many other things."],
+        ["LGBTQ Youth Center (lesbian, gay, bisexual, transgender, and questioning)", "$113,300", "The LGBTQ Center of Durham is proposing the creation of an LGBTQ+ Youth Center that will allow the current center to expand its mission to intentionally focus on the City of Durham’s LGBTQ+ youth population. This center will function as the singular physical hub of LGBTQ+ youth resources that currently scatter the city and increase their reach. The space will value and honor youth leadership and wisdom while focusing on enhancing individual agency and empowerment. It will also feature targeted programming and educational events designed to support youth in the development of positive self-concept, resiliency, building social and vocational skills, and leadership skills."],
+        ["Bus Shelters on Dearborn", "$106,502", "Add two bus shelters and lighting for two existing bus stops on the Dearborn corridor, one on the NW corner of the intersection of Maplewood and Dearborn and one across from the Braggtown Public Library at the intersection of Ruth and Dearborn."],
+        ["Street Trees", "$67,980", "Eight neighborhood groups in Durham, NC were identified as high-priority targets for tree planting. The neighborhoods include Old East Durham, Southside/College View, Walltown, Lyon Park, Downtown, Stratford Lakes, Old West Durham and Weavers. Planting street trees in underserved neighborhoods of our community to improve aesthetics, property values, and environmental quality."],
+        ["Accessible Ramps for People with Disabilities", "$56,650", "To set aside a grant fund for Habitat or other community partners to access to performaccessibility modifications to housing stock in Durham."]
+      ],
+      [
+        ["project1", "100"],
+        ["project2", "100"]
+      ],
+      [
+        ["Technology for Durham Public High and Middle Schools", "$134,784", "This project will provide Durham Public Schools (Jordan High School, Githens Middle, Lakewood Montessori Middle School, and Rogers-Herr Year Round Magnet Middle School)with funds to purchase and replace Epson Brightlink 685 Wi Projectors used in classrooms at the following high/middle schools: Jordan High, Githens Middle, Lakewood Montessori Middle School, and Rogers-Herr Year Round Magnet Middle School. DPS administration identified a need for working projectors in the classrooms as a major priority. Teachers rely on projectors every day, which are used for lessons, conducting research, watching educational videos and solving problems among many other things."],
+        ["LGBTQ (lesbian, gay, bisexual, transgender, and questioning)", "$113,300", "We are proposing the creation of an LGBTQ+ Youth Center that will allow the current center to expand its mission to intentionally focus on the City of Durham’s LGBTQ+ youth population. This center will function as the singular physical hub of LGBTQ+ youth resources that currently scatter the city and increase their reach. The space will value and honor youth leadership and wisdom while focusing on enhancing individual agency and empowerment. It will also feature targeted programming and educational events designed to support youth in the development of positive self-concept, resiliency, building social and vocational skills, and leadership skills."],
+        ["El Futuro", "$96,168", "This project would expand the El Futuro Durham clinic in the adjacent space at the Shoppes at Lakewood. El Futuro is a nonprofit outpatient clinic that provides comprehensive mental health services for Latino families in a bilingual environment of healing and hope. Construction to uplift the additional space will begin spring 2019. This request is to complete phase 2 renovations in Summer 2019 and bring space fully online.Phase 1 of this project is currently underway in the back third of our green space. Additional funds from the City of Durham will help us complete the next area of the space, expanding treatment and community gathering areas for Latino families and our Lakewood neighbors"],
+        ["Accessible Ramps for People with Disabilities", "$56,650", "To set aside a grant fund for Habitat or other community partners to access to perform accessibility modifications to housing stock in Durham."]
+      ]
+    ],
+    "budgetchoices": [
+      [
+        [
+          ["Bus Shelters with Reclaimed Art and Solar Panels", "$395,757", "Install bus shelters at existing stops that lack shelters and other stop amenities in nearby areas. To improve the ridership experience and aesthetics as well as contributeto renewable energy generation, shelters will include artwork commissioned by local artists using reclaimed materials as well as solar panel installations at select shelters that will power lights and USB charging stations."]
+        ],
+        [
+          ["Science Technology, Engineering, and Technology (STEM) and Entrepreneurship Youth Center", "$99,121", "A STEM and Entrepreneurship program where youth will for youth build robots, learn how to code, participate in other STEM projects and learn leadership and entrepreneurial skills through LEGO robotics courses, startup clinics, weekly mentorship sessions, and online computer coding programs. This will provide access and opportunities to align our urban youth with access to job training, entrepreneurial coaching, community engagement opportunities, educational services, and the kinds of positive reinforcement that will advance their intellectual and social interests. eMerging Entrepreneurs, Inc. is the project sponsor and it is a non-profit organization."],
+          ["Protected Crosswalk from Lakeview Park to Lakeview Secondary School", "$96,305", "Connect the existing sidewalk on the south side of Dearborn to the Lakeview Park, adda painted crosswalk, user-activated flashing pedestrian lights (RRFB), and make this crossing ADA accessible."],
+          ["Historic Monuments Along the Fayetteville St. Corridor", "$89,702", "The goal of this project is to commemorate and celebrate the history along the 12 historic neighborhoods that make up the Fayetteville Street Corridors. Signs, flags, andartistic bus benches will be placed along the corridor to capture written and pictorial history of past and present Fayetteville Street local heroes and historical events that shaped the 12 communities, and in totality, the city of Durham."],
+          ["Purchase Equipment to Make Playground Accessible- Drew Granby Park", "$79,310", "Remodel playground and add amenities designed for children with physical and mental disabilities, creating a space were all children are welcomed and are able to play and interact with each other."],
+          ["Art Displays on E. Chapel Hill St. Buildings", "$60,049", "Installing art displays on blank building walls in area of Convention Center garage walls."]
+        ]
+      ],
+      [
+        [
+          ["Bus Shelters on Fayetteville St.", "$158,620", "Improvements to bus shelters at the following bus stops: - bus stop on Fayetteville and Crooked Creek Parkway; - bus stop on Fayetteville and Martin Luther King Jr Pwy (on both sides of the road near Lowes Home Improvement heading towards Riddle Rd)"],
+          ["Technology for Durham Public Middle and High Schools", "$134,784", "This project will provide Durham Public Schools (Hillside High School, Southern High School, Lowe's Groove Magnet Middle School and Shepard Internal Baccalaureate Magnet) with funds to purchase and replace Epson Brightlink 685 Wi Projectors used in classrooms at the following high schools/middle schools: Hillside High, Southern High, Lowe's Groove Magnet Middle School and Shepard Internal Baccalaureate Magnet. DPS administration identified a need for working projectors in the classrooms as a major priority. Teachers rely on projectors every day, which are used for lessons, conducting research, watching educational videos and solving problems among many other things."],
+          ["Wi-Fi Hotspot Picnic Table", "$123,750", "Install solar-powered, fully-integrated Wi-Fi hotspot picnic tables at nine DHA properties to provide free, public access to the city’s planned fiber optic network. Eight DHA properties have been identified for installation: McDougald Terrace, Cornwallis Rd, HooverRd, Liberty St., Oxford Manor, Edgemont Elms, Oldham Towers, Preiss Steele, and Damar Court."],
+          ["Durham Housing Authority (DHA) LED Lighting and Security Cameras", "$113,300", "Lighting improvements and the installation of security cameras on Durham Housing Authority (DHA) properties. The Ward 2 properties include McDougald Terrace and HooverRd."],
+          ["LGBTQ Youth Center (lesbian, gay, bisexual, transgender, and questioning)", "$113,300", "We are proposing the creation of an LGBTQ+ Youth Center that will allow the current center to expand its mission to intentionally focus on the City of Durham’s LGBTQ+ youthpopulation. This center will function as the singular physical hub of LGBTQ+ youth resources that currently scatter the city and increase their reach. The space will value and honor youth leadership and wisdom while focusing on enhancing individual agency and empowerment. It will also feature targeted programming and educational events designed to support youth in the development of positive self-concept, resiliency, building social and vocational skills, and leadership skills."]
+        ],
+        [
+          ["project1", "100"],
+          ["project2", "100"]
+        ]
+      ],
+      [
+        [
+          ["The Life Center-Science, Technology, Engineering and Math (STEM) Equipment for Youth After School Program", "$145,991", "The Life Center provides After-School program for grades K-12. The Life Center would usePB funds to purchase STEM equipment to include XPS laptops, flight simulators, Marker Replicator 3D printer, etc. The equipment is needed to enhance existing program, expand services, and ensure that underserved kids in Ward 3 have an opportunity to benefit from STEM projects."],
+          ["Belmont Park Improvements", "$125,630", "Improvements to Belmont Park (located at Sovereign Street and Albany Avenue). The objective for park is to create a space for toddlers between the ages of 2 to 5 years and families to gather. The proposed improvements include: * playground equipment, benches, and picnic tables * a pump track around the perimeter. Pump tracks are short circular riding tracks of about 70 meters that include smooth mounds and berms. The tracks can be built suitable for any rider 3 and up * additional street lamps will be added near the perimeter of the park as a safety feature. * And a fence would be repaired and the entrance/exit gates moved to discourage the park as pass-through portal"],
+          ["Durham Housing Authority (DHA) LED Lighting and Security Cameras", "$57,783", "Lighting improvements and the installation of security cameras on Durham Housing Authority (DHA) properties. The Ward 3 properties include Damar Court."],
+          ["Pedestrian Crossing at Intersection of James and Nation", "$52,118", "Pedestrian crossing at the intersection of James Street and Nation Avenue, including curbramps at all four corners, crosswalks, and a concrete slab for the bus stop at this location"]
+        ],
+        [
+          ["Bus Shelters with Reclaimed Art and Solar Panels", "$395,757", "Install bus shelters at existing stops that lack shelters and other stop amenities in nearby areas. To improve the ridership experience and aesthetics as well as contribute to renewable energy generation, shelters will include artwork commissioned by local artists using reclaimed materials as well as solar panel installations at select that will power lights and USB charging stations."]
+        ]
+      ]
+    ],
+    "ward2RandomBudgetsLength": 64,
+    "ward2_random_budgets": [
+      [0, 2],
+      [0, 3, 9],
+      [0, 4, 5, 9],
+      [0, 4, 6, 9],
+      [0, 4, 7, 9],
+      [0, 4, 8, 9],
+      [0, 5, 6, 7],
+      [0, 5, 6, 8],
+      [0, 5, 6, 9],
+      [0, 5, 7, 8],
+      [0, 5, 7, 9],
+      [0, 5, 8, 9],
+      [0, 6, 7, 8],
+      [0, 6, 7, 9],
+      [0, 6, 8, 9],
+      [0, 7, 8, 9],
+      [1, 2],
+      [1, 3, 9],
+      [1, 4, 5, 9],
+      [1, 4, 6, 7],
+      [1, 4, 6, 8],
+      [1, 4, 6, 9],
+      [1, 4, 7, 8],
+      [1, 4, 7, 9],
+      [1, 4, 8, 9],
+      [1, 5, 6, 7],
+      [1, 5, 6, 8],
+      [1, 5, 6, 9],
+      [1, 5, 7, 8],
+      [1, 5, 7, 9],
+      [1, 5, 8, 9],
+      [1, 6, 7, 8],
+      [1, 6, 7, 9],
+      [1, 6, 8, 9],
+      [1, 7, 8, 9],
+      [2, 3, 5],
+      [2, 3, 6],
+      [2, 3, 7],
+      [2, 3, 8],
+      [2, 3, 9],
+      [2, 4, 5, 6],
+      [2, 4, 5, 7],
+      [2, 4, 5, 8],
+      [2, 4, 5, 9],
+      [2, 4, 6, 7],
+      [2, 4, 6, 8],
+      [2, 4, 6, 9],
+      [2, 4, 7, 8, 9],
+      [2, 5, 6, 7, 9],
+      [2, 5, 6, 8, 9],
+      [2, 5, 7, 8, 9],
+      [2, 6, 7, 8, 9],
+      [3, 4, 5, 6, 9],
+      [3, 4, 5, 7, 9],
+      [3, 4, 5, 8, 9],
+      [3, 4, 6, 7, 9],
+      [3, 4, 6, 8, 9],
+      [3, 4, 7, 8, 9],
+      [3, 5, 6, 7, 8],
+      [3, 5, 6, 7, 9],
+      [3, 5, 6, 8, 9],
+      [3, 5, 7, 8, 9],
+      [3, 6, 7, 8, 9],
+      [4, 5, 6, 7, 8, 9]
+    ],
+    "ward2_projects": [
+      ["Cook Rd. Sidewalk Extension", "$420,729", "Construct approximately 1,070 LF of new sidewalk to connect sidewalk gaps on the east side of Cook Road between Dunn Avenue to south of Kaitlin Drive."],
+      ["Bus Shelters with Reclaimed Art and Solar Panels", "$395,757", "Install bus shelters at existing stops that lack shelters and other stop amenities in nearbyareas. To improve the ridership experience and aesthetics as well as contribute to renewable energy generation, shelters will include artwork commissioned by local artists using reclaimed materials as well as solar panel installations at select shelters that will power lights and USB charging stations."],
+      ["Sidewalk along E. Pettigrew St. between Driver St. and S. Plum St", "$354,652", "Add a strip of sidewalk to connect Driver St to S. Plum St along East Pettigrew on the opposite side of where the train tracks are at."],
+      ["Burton Park Improvements", "$309,309", "Improvements to Burton Park. The proposed improvements include: <br>- adding one additional playground set; adding a tire swing, <br>- remodeling the current pavilion(replacing the two picnic tables, adding two garbage cans, and installing two electric outlets); < br > - increasing the number of benches throughout the park;removing the current grill and installing four new grills; < br > - relocating the community garden from the shaded side of Ridgeway Avenue to the playground side;repainting the older basket court;installing additional water fountatins;cleaning up the trees growing in the creek;increasing the visual appealof the park through landscaping;installing additional trash cans;and installing a new sign "],
+      ["Bus Shelters on Fayetteville St.", "$158,620", "Improvements to bus shelters at the following bus stops: <br>- bus stop on Fayetteville and Crooked Creek Parkway; <br>- bus stop on Fayetteville and Martin Luther King Jr Pwy (on both sides of the road near Lowes Home Improvement heading towards Riddle Rd)"],
+      ["Technology for Durham Public Middle and High Schools", "$134,784", "This project will provide Durham Public Schools (Hillside High School, Southern High School, Lowe's Groove Magnet Middle School and Shepard Internal Baccalaureate Magnet) with funds to purchase and replace Epson Brightlink 685 Wi Projectors used in classrooms at the following high schools/middle schools: Hillside High, Southern High, Lowe's Groove Magnet Middle School and Shepard Internal Baccalaureate Magnet. DPS administration identified a need for working projectors in the classrooms as a major priority. Teachers rely on projectors every day, which are used for lessons, conducting research, watching educational videos and solving problems among many other things."],
+      ["Wi-Fi Hotspot Picnic Table", "$123,750", "Install solar-powered, fully-integrated Wi-Fi hotspot picnic tables at nine DHA properties to provide free, public access to the city’s planned fiber optic network. Eight DHA properties have been identified for installation: McDougald Terrace, Cornwallis Rd, HooverRd, Liberty St., Oxford Manor, Edgemont Elms, Oldham Towers, Preiss Steele, and Damar Court."],
+      ["Durham Housing Authority (DHA) LED Lighting and Security Cameras", "$113,300", "Lighting improvements and the installation of security cameras on Durham Housing Authority (DHA) properties. The Ward 2 properties include McDougald Terrace and HooverRd."],
+      ["LGBTQ Youth Center (lesbian, gay, bisexual, transgender, and questioning)", "$113,300", "We are proposing the creation of an LGBTQ+ Youth Center that will allow the current center to expand its mission to intentionally focus on the City of Durham’s LGBTQ+ youthpopulation. This center will function as the singular physical hub of LGBTQ+ youth resources that currently scatter the city and increase their reach. The space will value and honor youth leadership and wisdom while focusing on enhancing individual agency and empowerment. It will also feature targeted programming and educational events designed to support youth in the development of positive self-concept, resiliency, building social and vocational skills, and leadership skills."],
+      ["Accessible Ramps for People with Disabilities", "$56,650", "To set aside a grant fund for Habitat or other community partners to access to perform accessibility modifications to housing stock in Durham."]
+    ]
+  }
+}

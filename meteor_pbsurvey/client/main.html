@@ -1,0 +1,79 @@
+<head>
+    <title>Participatory Budgeting survey</title>
+        <!--###########################
+        Expand/Collapse JS and CSS code for use
+        in the HEAD section of your document.
+        Written by Dick Ervasti. Learn More at:
+        http://dickervasti.com/wiki-style-text-expand-collapse-no-jquery.htm
+        ##################################-->
+        <script type="text/javascript">
+        <!--
+            function expand_collapse(id) {
+               var e = document.getElementById(id);
+               var f = document.getElementById(id+"_arrows");
+               if(e.style.display == 'none'){
+                  e.style.display = 'block';
+                  // f.innerHTML = '&#9650;';
+               }
+               else {
+                  e.style.display = 'none';
+                  // f.innerHTML = '&#9660;';
+               }
+            }
+        //-->
+        </script>
+        <link rel="stylesheet" href="./bootstrap.css">
+        <link rel="stylesheet" href="./main.css">
+
+        <script>
+        $(document).ready(function(){
+          $('[data-toggle="tooltip"]').tooltip();
+        });
+        </script>
+</head>
+
+<template name="instructions_landing_page">
+
+    <h4>
+  {{{IRBText}}}
+    </h4>
+</template>
+
+<template name="experiment">
+    <header>
+        <div class="bg">
+            <div id="navigacija" class="jumbotron" style="font-size: 30px">
+                Participatory Budgeting survey
+            </div>
+        </div>
+    </header>
+
+    <div class="jumbotron" style="padding:10px">
+        {{#if initialized}}
+        {{else}}
+            {{>instructions_landing_page}}
+            <p class="center"><input type="button" disabled={{buttonStateDisabled}} value="BEGIN" name="begin_experiment" id="begin_experiment" class="btn btn-default"/></p>
+        {{/if}}
+        {{#if initialized}}
+        {{#if questionphase}}
+        {{>phase_questions}}
+        {{/if}}
+        {{/if}}
+    </div>
+</template>
+
+<template name="phase_questions">
+  <div id="scroll_here" class="center">
+    {{{ward_question_beginning}}}
+    <form name = "pb_selection">
+        <label class="btnanswerchoice">{{{ward_budget0}}}<input type="radio" name="radio" value = "choice0" /></label>
+        <label class="btnanswerchoice">{{{ward_budget1}}}<input type="radio" name="radio" value = "choice1" /></label>
+    </form>
+          <p> (Optional) Why do you prefer the picked set of projects?</p>
+          <form name="feedback">
+              <textarea rows="3" cols="60"> </textarea>
+          </form>
+      <br>
+      <input type="button" value="SUBMIT" disabled={{buttonStateDisabled}} id="answer_submission" class="btn btn-default">
+  </div>
+</template>
