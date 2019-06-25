@@ -51,7 +51,7 @@ Meteor.methods({
             var initial_time_val = new Date().getTime();
             Answers.insert({
                 user_id: post.user_id,
-                ward_id: post.ward_id,
+                // ward_id: post.ward_id,
                 initial_time: initial_time_val,
                 latest_time: initial_time_val,
                 experiment_finished: false,

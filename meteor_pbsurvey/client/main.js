@@ -10,6 +10,8 @@ import './main.css';
 import './template_helpers.js';
 import './end.html';
 
+
+
 Session.set("answered", false);
 Session.set('experiment_finished', false);
 Session.set('waiting', true);
@@ -17,10 +19,10 @@ Session.set('waiting', true);
 //reactively starts the experiment
 Deps.autorun(function(){
     var curr_experiment = Answers.findOne({user_id: Session.get('user_ID_value')});
-    console.log(Session.get('user_ID_value'))
-    console.log(curr_experiment)
+    // console.log(Session.get('user_ID_value'))
+    // console.log(curr_experiment)
     if (curr_experiment && curr_experiment.begin_experiment){
-        console.log("new experiment entry inserted for worker " + Session.get('user_ID_value'));
+        console.log("new experiment entry inserted for user " + Session.get('user_ID_value'));
         Session.set('initialized', true);
         Session.set('waiting', true);
         initialized_questions = false;

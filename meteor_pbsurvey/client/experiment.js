@@ -17,7 +17,7 @@ add_unspent_value_for_budget = function(projects, budgetleft){
     value += parseInt(project[1].replace(/\D/g,''))
   });
   newprojects = projects.slice(); /* how to create copy */
-  console.log(budgetleft - value)
+  // console.log(budgetleft - value)
   newprojects.push(["Unspent budget: saved for next year", "$" + numberWithCommas(budgetleft - value), ""]);
   return newprojects;
 }
@@ -64,16 +64,34 @@ Template.experiment.events({
       // Template.instance().buttonStateDisabled.set(true);
       // setTimeout(function() { Template.instance().buttonDisabled.set(false); }, 2000);
         user_ID_value = Session.get("user_ID_value");
-        var curr_experiment = Answers.findOne({user_id: Session.get('user_ID_value')});
-        if (curr_experiment){
-            if(!Session.get('ward_ID_value')){
-              Session.set('ward_ID_value', curr_experiment.ward_id)
+        // var curr_experiment = Answers.findOne({user_id: Session.get('user_ID_value')});
+        // if (curr_experiment){
+        //     if(!Session.get('ward_ID_value')){
+        //       Session.set('ward_ID_value', curr_experiment.ward_id)
+        //     }
+        // }
+
+        var answer_value = {};
+        var form = $("form").children();
+        //for checkboxes, radio buttons
+        form.filter("label").children().filter(":checked").each(function(index, element){
+            //append the values to the answer array
+            if (!answer_value[$(element)[0].form.name]){
+                answer_value[$(element)[0].form.name]= [$(element).val()];
+            } else {
+                answer_value[$(element)[0].form.name].push($(element).val());
             }
+        });
+        ward_ID_value = answer_value['ward_selection']
+
+        if (Object.keys(answer_value).length != $("form").length){
+            alert("Please make sure to select a Ward.");
+            return;
         }
 
+        Session.set('ward_ID_value', ward_ID_value)
 
         initial_time_value = Session.get('initial_time_value');
-        ward_ID_value = Session.get('ward_ID_value');
         which_budget_presented_first = getRandomInt(0, 2);
 
         Session.set('initialized', true);
@@ -98,58 +116,58 @@ Template.experiment.events({
         });
     },
 
-    'click #submit_feedback':function(event){
-      event.preventDefault();
-      event.stopPropagation()
-      // console.log('feedbacksubmission')
-
-        var answer_value = {};
-        var form = $("form").children();
-        //for checkboxes, radio buttons
-        form.filter("label").children().filter(":checked").each(function(index, element){
-            //append the values to the answer array
-            if (!answer_value[$(element)[0].form.name]){
-                answer_value[$(element)[0].form.name]= [$(element).val()];
-            } else {
-                answer_value[$(element)[0].form.name].push($(element).val());
-            }
-        });
-        //for the button
-        if (event.target.parentNode.name){
-            answer_value[event.target.parentNode.name] = event.target.value;
-        }
-        //for textares
-        form.filter("textarea").each(function(index, element){
-            if ($(element).val() != " "){
-                if (!answer_value[$(element).parent().attr('name')]){
-                    answer_value[$(element).parent().attr('name')]= [$(element).val()];
-                } else {
-                    answer_value[$(element).parent().attr('name')].push($(element).val());
-                }
-            }
-        });
-        // if (Object.keys(answer_value).length != $("form").length){
-        //     alert("Please make sure to answer every question.");
-        //     return;
-        // }
-        user_ID_value = Session.get('user_ID_value');
-        Session.set("answered", true);
-        Session.set("waiting", true);
-        //
-        // if (Session.equals('phase', 'phase_instructions_page')){
-        //   Session.set('phase', 'ask_paragraph_question')
-        // }
-
-        Meteor.call('submitFeedback', {answer: answer_value, user_id: user_ID_value}, function(error, result){
-            if (error) {
-                console.log("Error " + error + " occured. Please contact the administrators with the issue.");
-            } else{
-                Session.set('experiment_finished', true);
-                Router.go('/end');
-              }
-        });
-
-    },
+    // 'click #submit_feedback':function(event){
+    //   event.preventDefault();
+    //   event.stopPropagation()
+    //   // console.log('feedbacksubmission')
+    //
+    //     var answer_value = {};
+    //     var form = $("form").children();
+    //     //for checkboxes, radio buttons
+    //     form.filter("label").children().filter(":checked").each(function(index, element){
+    //         //append the values to the answer array
+    //         if (!answer_value[$(element)[0].form.name]){
+    //             answer_value[$(element)[0].form.name]= [$(element).val()];
+    //         } else {
+    //             answer_value[$(element)[0].form.name].push($(element).val());
+    //         }
+    //     });
+    //     //for the button
+    //     if (event.target.parentNode.name){
+    //         answer_value[event.target.parentNode.name] = event.target.value;
+    //     }
+    //     //for textares
+    //     form.filter("textarea").each(function(index, element){
+    //         if ($(element).val() != " "){
+    //             if (!answer_value[$(element).parent().attr('name')]){
+    //                 answer_value[$(element).parent().attr('name')]= [$(element).val()];
+    //             } else {
+    //                 answer_value[$(element).parent().attr('name')].push($(element).val());
+    //             }
+    //         }
+    //     });
+    //     // if (Object.keys(answer_value).length != $("form").length){
+    //     //     alert("Please make sure to answer every question.");
+    //     //     return;
+    //     // }
+    //     user_ID_value = Session.get('user_ID_value');
+    //     Session.set("answered", true);
+    //     Session.set("waiting", true);
+    //     //
+    //     // if (Session.equals('phase', 'phase_instructions_page')){
+    //     //   Session.set('phase', 'ask_paragraph_question')
+    //     // }
+    //
+    //     Meteor.call('submitFeedback', {answer: answer_value, user_id: user_ID_value}, function(error, result){
+    //         if (error) {
+    //             console.log("Error " + error + " occured. Please contact the administrators with the issue.");
+    //         } else{
+    //             Session.set('experiment_finished', true);
+    //             Router.go('/end');
+    //           }
+    //     });
+    //
+    // },
     'click #answer_submission': function(event) {
       // Template.instance().buttonStateDisabled.set(true);
       // setTimeout(function() { instance.buttonDisabled.set(false); }, 2000);
