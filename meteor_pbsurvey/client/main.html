@@ -42,24 +42,30 @@
 <template name="experiment">
     <header>
         <div class="bg">
-            <div id="navigacija" class="jumbotron" style="font-size: 30px">
+          <h1>
+            <!-- <div id="navigacija" class="jumbotron"> -->
                 Participatory Budgeting survey
-            </div>
+            <!-- </div> -->
+            </h1>
         </div>
     </header>
 
-    <div class="jumbotron" style="padding:10px">
+    <!-- <div class="jumbotron" style="padding:10px"> -->
         {{#if initialized}}
         {{else}}
+        <div class="bg">
             {{>instructions_landing_page}}
+        </div>
             <p class="center"><input type="button" disabled={{buttonStateDisabled}} value="BEGIN" name="begin_experiment" id="begin_experiment" class="btn btn-default"/></p>
         {{/if}}
         {{#if initialized}}
         {{#if questionphase}}
+        <h3>
         {{>phase_questions}}
+        </h3>
         {{/if}}
         {{/if}}
-    </div>
+    <!-- </div> -->
 </template>
 
 <template name="phase_questions">
@@ -74,6 +80,9 @@
               <textarea rows="3" cols="60"> </textarea>
           </form>
       <br>
-      <input type="button" value="SUBMIT" disabled={{buttonStateDisabled}} id="answer_submission" class="btn btn-default">
+      <input type="button" value="SUBMIT" disabled={{buttonStateDisabled}} id="answer_submission" class="btn btn-default"><br>
+      <div class="center">
+      <p style="font-size:18px;max-width:900px;text-align:center;margin:auto">(Note that the costs listed may not be the actual amounts for the projects after they are split across wards. In your ward, $800,000 was available for distribution. This survey will only be considered for research purposes; it will not affect the actual funding.)</p><br><br>
+      </div>
   </div>
 </template>

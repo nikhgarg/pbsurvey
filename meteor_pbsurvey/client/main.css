@@ -22,7 +22,9 @@ body{ background-color: #ccc;}
     background-color: #ccc;
     background-size: 100%;
     /* background: transparent; */
-    width: 100%;
+    width: 90%;
+    padding-top: 15px;
+    padding-left: 15px;
     /* height: 150px; /*same height as jumbotron */
     top:0;
     left:0;
@@ -89,7 +91,7 @@ table{
   display: inline-block;
   font-weight: 400;
   /* color: #212529; */
-  color: white;
+  color: black; /*white;*/
 
   text-align: center;
   vertical-align: middle;
@@ -97,10 +99,10 @@ table{
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  background-color: rgb(66, 129, 229);
+  background-color: #9cb8d9; /* rgb(66, 129, 229);*/
   border: 1px solid transparent;
   padding: 0.375rem 0.75rem;
-  font-size: 1rem;
+  font-size: 1.25rem;
   line-height: 1.5;
   border-radius: 0.25rem;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;

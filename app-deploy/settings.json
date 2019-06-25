@@ -1,6 +1,6 @@
 {
   "public": {
-    "IRBText": "Thank you for voting in the Durham participatory budgeting process two months ago. As you may remember, Stanford University presented you besides the official ballot also with a research ballot. You gave us permission to ask you one more question after the whole voting process was completed.<br/><br/>You will now be asked to participate in an activity that will not affect your vote, but is part of a Stanford University research project. You can exit at any time. The expected time for this activity is 2 minutes. In this activity, you will be asked to two budgets based on the projects available during the process.<br/><br/>This study poses no risk, and will help us improve digital democracy processes. No payment will be made to you for participation, and we cannot and do not guarantee or promise that you will receive any benefits from this study. You have the right to refuse to answer particular questions. This study is funded partially by the National Science Foundation. Please contact Professor Ashish Goel at goel_admins@lists.stanford.edu if you have any questions, suggestions, or concerns.<br/><br/><p>If you agree to the above, please click “Begin” to move on to the next page.</p>",
+    "IRBText": "Thank you for voting in the Durham participatory budgeting process two months ago. As you may remember, Stanford University presented you besides the official ballot also with a research ballot. You gave us permission to ask you one more question after the whole voting process was completed.<br/><br/>You will now be asked to participate in an activity that will not affect your vote, but is part of a Stanford University research project. You can exit at any time. The expected time for this activity is 2 minutes. In this activity, you will be asked to compare two budgets based on the projects available during the process.<br/><br/>This study poses no risk, and will help us improve digital democracy processes. No payment will be made to you for participation, and we cannot and do not guarantee or promise that you will receive any benefits from this study. You have the right to refuse to answer particular questions. This study is funded partially by the National Science Foundation. Please contact Professor Ashish Goel at goel_admins@lists.stanford.edu if you have any questions, suggestions, or concerns.<br/><br/><p>If you agree to the above, please click “Begin” to move on to the next page.</p>",
     "existingbudgets": [
       [
         ["Technology for Durham Public Middle and High Schools", "$134,784", "This project will provide Durham Public Schools with funds to purchase and replace Epson Brightlink 685 Wi Projectors used in classrooms at the following high school andmiddle school: Northern High, Brogden Middle School, Carrington Middle School, LucasMiddle School, Neal Magnet Middle and School. DPS administration identified a need for working projectors in the classrooms as a major priority. Teachers rely on projectorsevery day, which are used for lessons, conducting research, watching educational videos and solving problems among many other things."],
@@ -39,7 +39,8 @@
           ["Technology for Durham Public Middle and High Schools", "$134,784", "This project will provide Durham Public Schools (Hillside High School, Southern High School, Lowe's Groove Magnet Middle School and Shepard Internal Baccalaureate Magnet) with funds to purchase and replace Epson Brightlink 685 Wi Projectors used in classrooms at the following high schools/middle schools: Hillside High, Southern High, Lowe's Groove Magnet Middle School and Shepard Internal Baccalaureate Magnet. DPS administration identified a need for working projectors in the classrooms as a major priority. Teachers rely on projectors every day, which are used for lessons, conducting research, watching educational videos and solving problems among many other things."],
           ["Wi-Fi Hotspot Picnic Table", "$123,750", "Install solar-powered, fully-integrated Wi-Fi hotspot picnic tables at nine DHA properties to provide free, public access to the city’s planned fiber optic network. Eight DHA properties have been identified for installation: McDougald Terrace, Cornwallis Rd, HooverRd, Liberty St., Oxford Manor, Edgemont Elms, Oldham Towers, Preiss Steele, and Damar Court."],
           ["Durham Housing Authority (DHA) LED Lighting and Security Cameras", "$113,300", "Lighting improvements and the installation of security cameras on Durham Housing Authority (DHA) properties. The Ward 2 properties include McDougald Terrace and HooverRd."],
-          ["LGBTQ Youth Center (lesbian, gay, bisexual, transgender, and questioning)", "$113,300", "We are proposing the creation of an LGBTQ+ Youth Center that will allow the current center to expand its mission to intentionally focus on the City of Durham’s LGBTQ+ youthpopulation. This center will function as the singular physical hub of LGBTQ+ youth resources that currently scatter the city and increase their reach. The space will value and honor youth leadership and wisdom while focusing on enhancing individual agency and empowerment. It will also feature targeted programming and educational events designed to support youth in the development of positive self-concept, resiliency, building social and vocational skills, and leadership skills."]
+          ["LGBTQ Youth Center (lesbian, gay, bisexual, transgender, and questioning)", "$113,300", "We are proposing the creation of an LGBTQ+ Youth Center that will allow the current center to expand its mission to intentionally focus on the City of Durham’s LGBTQ+ youthpopulation. This center will function as the singular physical hub of LGBTQ+ youth resources that currently scatter the city and increase their reach. The space will value and honor youth leadership and wisdom while focusing on enhancing individual agency and empowerment. It will also feature targeted programming and educational events designed to support youth in the development of positive self-concept, resiliency, building social and vocational skills, and leadership skills."],
+          ["Accessible Ramps for People with Disabilities", "$56,650", "To set aside a grant fund for Habitat or other community partners to access to perform accessibility modifications to housing stock in Durham."]
         ],
         [
           ["project1", "100"],
@@ -58,7 +59,7 @@
         ]
       ]
     ],
-    "ward2RandomBudgetsLength": 64,
+    "ward2RandomBudgetsLength": 63,
     "ward2_random_budgets": [
       [0, 2],
       [0, 3, 9],
@@ -122,8 +123,7 @@
       [3, 5, 6, 7, 9],
       [3, 5, 6, 8, 9],
       [3, 5, 7, 8, 9],
-      [3, 6, 7, 8, 9],
-      [4, 5, 6, 7, 8, 9]
+      [3, 6, 7, 8, 9]
     ],
     "ward2_projects": [
       ["Cook Rd. Sidewalk Extension", "$420,729", "Construct approximately 1,070 LF of new sidewalk to connect sidewalk gaps on the east side of Cook Road between Dunn Avenue to south of Kaitlin Drive."],

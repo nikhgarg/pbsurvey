@@ -1,6 +1,9 @@
 import './main.html';
 import './main.css';
 
+function numberWithCommas(x) {
+    return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+}
 
 getRandomInt = function (min, max) {
   min = Math.ceil(min);
@@ -8,11 +11,22 @@ getRandomInt = function (min, max) {
   return Math.floor(Math.random() * (max - min)) + min; //The maximum is exclusive and the minimum is inclusive
 };
 
+add_unspent_value_for_budget = function(projects, budgetleft){
+  var value = 0
+  projects.forEach(function(project){
+    value += parseInt(project[1].replace(/\D/g,''))
+  });
+  newprojects = projects.slice(); /* how to create copy */
+  console.log(budgetleft - value)
+  newprojects.push(["Unspent budget: saved for next year", "$" + numberWithCommas(budgetleft - value), ""]);
+  return newprojects;
+}
+
 create_table_for_budget = function (projects){
   var str = '<table style="max-width:1000px;""><tr><th width="70%">'+ 'Project Name' + '</th><th width="30%">' + 'Project Cost' + '</th></tr>'
   projects.forEach(function(project) {
     // str += '<tr><td width="70%">'+ '<div class="tooltip" >' + project[0] + '<span class="tooltiptext">' + project[2] + '</span></div>' + '</td><td width="30%">' + project[1] + '</td></tr>';
-    str += '<tr><td width="70%">'+ '<a href="#" data-toggle="tooltip" style="color:#fff;" title="'+ project[2] + '">' + project[0] + '</a>' + '</td><td width="30%">' + project[1] + '</td></tr>';
+    str += '<tr><td width="70%">'+ '<a href="#" data-toggle="tooltip" style="color:#000;" title="'+ project[2] + '">' + project[0] + '</a>' + '</td><td width="30%">' + project[1] + '</td></tr>';
   });
   str += '</table>'
   return str;
@@ -23,7 +37,7 @@ create_table_for_budgetrandom = function (projects){
   projects.forEach(function(project) {
     projects_actual.push(Meteor.settings.public.ward2_projects[project])
   });
-  return create_table_for_budget(projects_actual)
+  return create_table_for_budget(add_unspent_value_for_budget(projects_actual, 800000))
 }
 
 /**
